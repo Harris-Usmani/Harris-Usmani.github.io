@@ -1,5 +1,5 @@
 {
-  "name": "saadpasta.github.io",
+  "homepage": "http://harisusmani.tech/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -b master -d build",
